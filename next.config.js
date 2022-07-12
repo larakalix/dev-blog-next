@@ -3,9 +3,8 @@ const nextConfig = {
     reactStrictMode: true,
     swcMinify: true,
     env: {
-        NEXT_APP_GITHUB_CLIENT_ID: process.env.NEXT_APP_GITHUB_CLIENT_ID,
-        NEXT_APP_GITHUB_CLIENT_SECRET:
-            process.env.NEXT_APP_GITHUB_CLIENT_SECRET,
+        GITHUB_ID: process.env.GITHUB_ID,
+        GITHUB_SECRET: process.env.GITHUB_SECRET,
     },
     images: {
         domains: ["www.datocms-assets.com"],
