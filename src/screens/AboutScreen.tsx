@@ -1,9 +1,9 @@
 import { ScreenWraper } from "./ScreenWraper";
 
-export const HomeScreen = () => {
+export const AboutScreen = () => {
     return (
         <ScreenWraper>
-            <h1>Home page</h1>
+            <h1>About page</h1>
         </ScreenWraper>
     );
 };

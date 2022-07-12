@@ -18,6 +18,7 @@
         "paths": {
             "@/screen/*": ["src/screens/*"],
             "@/component/*": ["src/components/*"],
+            "@/model/*": ["src/models/*"],
             "@/store/*": ["src/stores/*"]
         }
     },
